@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    command: python -u app.py
+    ports:
+      - "81:80"
+    volumes:
+      - .:/app
