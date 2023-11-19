@@ -13,7 +13,7 @@ from userAPI.objectid import PydanticObjectId
 
 # Configure Flask & Flask-PyMongo:
 app = Flask(__name__)
-pymongo = MongoClient("mongodb+srv://schedule_admin:CodeCafe2023@sch0.gvtfiev.mongodb.net/?retryWrites=true&w=majority")
+pymongo = MongoClient("mongodb+srv://")
 
 # Get a reference to the recipes collection.
 # Uses a type-hint, so that your IDE knows what's happening!
